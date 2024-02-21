@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav .btn1 {
+  height: 30px;
+  width: 150px;
+  margin-right: 50px;
+  border: none;
+  background-color: orangered;
+  color: #fff;
+  /* right: 40%; */
+}
+.content1 {
+  width: 85%;
+  height: 300px;
+  border-radius: 5%;
+  background: linear-gradient(
+      90deg,
+      rgba(13, 66, 61, 0.9) -22.84%,
+      rgba(12, 199, 181, 0.9) 138.88%
+    ),
+    linear-gradient(0deg, #e6e6e6, #e6e6e6);
+}
+.content1 p {
+  font-size: 15px;
+  color: #e6e6e6;
+  padding-top: 60px;
+}
+.content1 button {
+  background: #f44336;
+  color: white;
+  border: none;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+  border-radius: 5%;
+}
+.content1 .btn2 {
+  margin-left: 100px;
+}
+.content1 .btn3 {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    background: #000;
+  }
+  .content1 button {
+    margin-top: 10px;
+  }
+  .content1 .btn2 {
+    margin-left: 20px;
+  }
+}
+/* .section2 .card-content{
+  height: 80vh;
+} */
+.section2 .card2 {
+  border: 2px solid #009688;
+
+  border-radius: 20px;
+}
+.card-cours {
+  text-align: center;
+  padding: 50px;
+}
+.c1 {
+  color: red;
+  border: 2px solid red;
+  border-radius: 30px;
+}
+.c2 {
+  color: #009688;
+  border: 2px solid #009688;
+  border-radius: 30px;
+}
+.c3 {
+  color: #ff9800;
+  border: 2px solid #ff9800;
+  border-radius: 30px;
+}
+.c4 {
+  color: #009688;
+  border: 2px solid #009688;
+  border-radius: 30px;
+}
+.diplome {
+  background: #f44336;
+}
+
+.ligne p {
+  font-size: 14px;
+}
+.header p {
+  font-size: 14px;
+}
+.header button {
+  font-size: 16px;
+  background: #f44336;
+  color: white;
+  width: 150px;
+  border: none;
+  padding: 5px;
+}
+.jane {
+  border: 2px solid #009688;
+}
+.activites {
+  background: #f44336;
+}
+.partenaire {
+  background: #eef9f8e5;
+  padding-bottom: 100px;
+}
+.partenaire button {
+  font-size: 16px;
+  background: #f44336;
+  color: white;
+  width: 150px;
+  border: none;
+  padding: 5px;
+  left: 50%;
+}
+footer{
+  background-color: #009688;
+  height: 50vh;
+}
