@@ -126,5 +126,11 @@ nav .btn1 {
 }
 footer{
   background-color: #009688;
-  height: 50vh;
+  /* height: 50vh; */
+  padding: 50px 0;
+}
+.card1{
+  background: #009688;
+ color: white;
+ border-radius: 5%;
 }
