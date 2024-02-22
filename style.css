@@ -45,9 +45,7 @@ nav .btn1 {
 }
 
 @media screen and (max-width: 850px) {
-  body {
-    background: #000;
-  }
+
   .content1 button {
     margin-top: 10px;
   }
@@ -65,7 +63,7 @@ nav .btn1 {
 }
 .card-cours {
   text-align: center;
-  padding: 50px;
+  padding: 50px ;
 }
 .c1 {
   color: red;
@@ -133,4 +131,13 @@ footer{
   background: #009688;
  color: white;
  border-radius: 5%;
+}
+.btn3{
+  color: white;
+  background-color: #f44336;
+  border: none;
+  width: 25%;
+  height: 30px;
+  padding: 0 10px;
+  
 }
